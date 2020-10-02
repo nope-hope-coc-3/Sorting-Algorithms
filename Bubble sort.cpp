@@ -34,7 +34,7 @@ void printArray(int arr[], int size)
 int main() 
 { 
 	int arr[] = {64, 34, 25, 12, 22, 11, 90}; 
-	int n = sizeof(arr)/sizeof(arr[0]); 
+	int n = sizeof(arr)/sizeof(int); 
 	bubbleSort(arr, n); 
 	cout<<"Sorted array: \n"; 
 	printArray(arr, n); 
